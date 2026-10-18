@@ -14,7 +14,6 @@ import subprocess
 def numberFiles():
     print("List of Files \n--------------\n\n\n")
     os.system(f"ls {getPath}")
-    os.system(f"ls {getPath}")
 
 # @docs
 # Here, this is where we create a new variable called getPath that uses

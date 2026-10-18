@@ -2,7 +2,7 @@ File-Management
 
 
 
-Python Standard Libraries: 
+Python Standard Libraries Requirements: 
 
 - import os
 - import path

@@ -7,4 +7,6 @@
 mkdir <directory>
 ```
 
-
+```shell
+cargo init
+```

@@ -3,10 +3,19 @@
 
 ## How to start a project
 
+
+Make a directory in Rust
 ```shell
 mkdir <directory>
 ```
 
+Use the init command
 ```shell
 cargo init
+```
+
+
+Running the rust project
+```shell
+cargo run
 ```

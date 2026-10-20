@@ -10,11 +10,6 @@ from pathlib import Path
 import os
 import subprocess
 
-
-def numberFiles():
-    print("List of Files \n--------------\n\n\n")
-    os.system(f"ls {getPath}")
-
 # @docs
 # Here, this is where we create a new variable called getPath that uses
 # the Path feature from pathlib to point to a directory of path, in this
@@ -33,9 +28,8 @@ getPath = Path("/Users/$USER/Documents/")
 
 while True: 
     if getPath == getPath: 
-        numberFiles()
+        print("Number of files:")
         break
-
     else: 
         print("The file path is not found. The program is stopped")
         break

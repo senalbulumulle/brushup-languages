@@ -16,3 +16,4 @@ Brushing up all coding languages because why not
 ## What tools that you recommend to brush up languages
 
 - micro editor (cli)
+- vscodium

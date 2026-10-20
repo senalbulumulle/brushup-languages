@@ -1,5 +1,7 @@
 # Rust
 
+This folder contains files and folders that I can use and brush up Rust.
+
 
 ## How to start a project
 

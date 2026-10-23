@@ -4,6 +4,12 @@ Brushing up all coding languages because why not
 
 
 
+# Features
+
+- "Simple Projects"
+- Learning Langauges
+
+
 # Why
 
 - Because of the AI overloads

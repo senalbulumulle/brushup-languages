@@ -12,3 +12,14 @@ that we are going to be using for this project.
 ```python
 import socket
 ```
+
+## Good coding practices
+
+The good coding practices is having const variables on top for instance: 
+
+```python
+HOST = <localhost or ip address>
+PORT = <port number>
+```
+
+

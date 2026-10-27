@@ -14,3 +14,7 @@ server_socket.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
 
 server_socket.bind((HOST, PORT))
+
+server_socket.listen(1)
+
+print(f"Senal Server is running on {HOST}: {PORT}")

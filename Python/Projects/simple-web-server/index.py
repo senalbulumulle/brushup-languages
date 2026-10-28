@@ -31,3 +31,10 @@ print(f"Senal Server is running on {HOST}: {PORT}")
 while True: 
     client_socket, client_address = server_socket.accept()
     print(f"Connection from {client_address}")
+
+    request = client_socket.recv(1024)
+    print(request.decode("utf-8", errors="replace")) 
+
+
+
+client_socket.close()

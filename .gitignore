@@ -3,4 +3,7 @@
 **/*.rs.bk
 *.pdb
 
+# Local Cargo lockfiles under Rust/ so parallel edits do not conflict
+Rust/**/Cargo.lock
+
 *.out

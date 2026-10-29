@@ -1,3 +1,7 @@
+use wgpu::*;
+
+
 fn main() {
-    println!("Hello, world!");
+
+    let instance = wgpu::Instance::default();
 }

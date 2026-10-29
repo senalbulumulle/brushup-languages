@@ -17,5 +17,10 @@ device = adapter.request_device_sync()
 ## initializing the canvas window or display
 canvas = RenderCanvas(size=(640, 480), title="ui-framework")
 
+context = canvas.get_wgpu_context()
+texture_format = context.get_preferred_format(device.adapter)
+context.configure(device=device, format=texture_format)
+
+
 ## include the triangle shader file from the global variable on the top 
 shadertriangle = (Path(__file__).parent / TRIANGLE_SOURCE).read_text(encoding="utf-8")

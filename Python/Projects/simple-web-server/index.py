@@ -35,6 +35,15 @@ while True:
     request = client_socket.recv(1024)
     print(request.decode("utf-8", errors="replace")) 
 
-
-
-client_socket.close()
+    content = "<html> Senal's server </html>"
+    
+    response = (
+        "HTTP/1.1 200 OK\r\n"
+        "Content-Type: text/html; charset=utf-8\r\n"
+        f"Content-Length: {len(content.encode('utf-8'))}\r\n"
+        "Connection: close\r\n"
+        "\r\n"
+        f"{content}"
+    )
+    client_socket.sendall(response.encode("utf-8"))
+    client_socket.close()

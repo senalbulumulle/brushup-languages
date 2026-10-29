@@ -8,7 +8,8 @@ This repository contains building a UI framework using Python
 ```shell
 python3 -m venv .venv
 python3 -m pip install --upgrade pip
-python3 -m pip install wgpu
+python3 -m pip install wgpu --break-system-packages
+python3 -m pip install rendercanvas glfw --break-system-packages
 ```
 
 

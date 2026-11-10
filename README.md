@@ -1,6 +1,7 @@
 # brushup-languages
 
-Brushing up all coding languages because why not
+Brushing up all coding languages because why not. Just not coding languages
+but also libraries as well.
 
 
 

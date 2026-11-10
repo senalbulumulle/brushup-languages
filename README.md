@@ -18,6 +18,11 @@ but also libraries as well.
 - Brush up creative coding again
 
 
+# What is the good use of AI
+
+I use AI agents as like this scenario. I do my part, and the AI does the part. 
+
+
 # Q&A
 
 ## What tools that you recommend to brush up languages

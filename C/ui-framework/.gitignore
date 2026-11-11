@@ -1,0 +1,9 @@
+build/
+vendor/libclipboard/build/
+vendor/libclipboard/prefix/
+.DS_Store
+*.o
+*.a
+compile_commands.json
+
+**/.config/pulse/

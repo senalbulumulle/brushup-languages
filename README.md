@@ -30,3 +30,4 @@ this. When it comes to AI, YOU HAVE TO EMBRACE IT, and can't be against AI. That
 
 - micro editor (cli)
 - vscodium
+- cursor

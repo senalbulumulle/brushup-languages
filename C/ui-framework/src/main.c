@@ -44,7 +44,7 @@ int main(void) {
         lf_init_glfw(win_w, win_h, window);
 
         while (!glfwWindowShouldClose(window)) {
-                glClearColor(0.10 f, 0.10 f, 0.10 f, 1.0 f);
+                glClearColor(0.10f, 0.10f, 0.10f, 1.0f);
                 glClear(GL_COLOR_BUFFER_BIT);
 
                 lf_begin();

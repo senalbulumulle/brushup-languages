@@ -23,6 +23,7 @@ LDFLAGS := $(PKG_LIBS) -L$(CLIP_PREFIX)/lib -lclipboard
 
 UNAME_S := $(shell uname -s)
 ifeq ($(UNAME_S),Darwin)
+	CFLAGS  += -DGL_SILENCE_DEPRECATION
 	LDFLAGS += -framework OpenGL -framework Cocoa -framework IOKit -framework CoreFoundation -framework AppKit
 else
 	LDFLAGS += -lGL -ldl -lpthread

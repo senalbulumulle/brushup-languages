@@ -20,7 +20,8 @@ but also libraries as well.
 
 # What is the good use of AI
 
-I use AI agents as like this scenario. I do my part, and the AI does the part. 
+I use AI agents as like this scenario. I do my part, and the AI does the part. The thing is 
+this. When it comes to AI, YOU HAVE TO EMBRACE IT, and can't be against AI. That is wrong. 
 
 
 # Q&A

@@ -2,27 +2,28 @@
 
 Immediate-mode UI framework from scratch on **GLFW + OpenGL 3.3**.
 
-## Status
+Right now this is a window shell: an 800×600 GLFW window, a dark GL clear each frame, and Escape to quit.
 
-Phase 1 — window shell: GLFW window, GL clear loop, Escape to quit.
+## Layout
+
+```
+src/
+  main.rs     # demo loop
+  lib.rs      # crate root
+  window.rs   # GLFW lifecycle, events, viewport
+  render.rs   # framebuffer clear
+  input.rs    # (empty)
+  ui.rs       # (empty)
+```
 
 ## Dependencies
 
 - [GLFW](https://www.glfw.org/) (system library; `brew install glfw` on macOS)
-- `glfw` crate — window + input
-- `gl` crate — OpenGL function loading
+- `glfw` — window + input
+- `gl` — OpenGL function loading
 
 ## Run
 
 ```shell
 cargo run
 ```
-
-## Roadmap
-
-1. Shell — window, clear, Esc *(done)*
-2. Draw — colored rects, then text
-3. Input — mouse / keyboard → hit-testing
-4. Widgets — text, button, …
-5. Layout — row / column + padding
-6. Frame API — `begin` / `end`

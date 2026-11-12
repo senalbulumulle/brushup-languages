@@ -1,4 +1,10 @@
-//! A whole app in Aura Speak — made to be readable by a 10-year-old.
+//      _                               _   _   ___ 
+//     / \     _   _   _ __    __ _    | | | | |_ _|
+//    / _ \   | | | | | '__|  / _` |   | | | |  | | 
+//   / ___ \  | |_| | | |    | (_| |   | |_| |  | | 
+//  /_/   \_\  \__,_| |_|     \__,_|    \___/  |___|
+           
+// this is an example code for aura-ui
 
 use aura_ui::prelude::*;
 

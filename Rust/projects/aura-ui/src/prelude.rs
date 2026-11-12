@@ -1,3 +1,9 @@
+//      _                               _   _   ___ 
+//     / \     _   _   _ __    __ _    | | | | |_ _|
+//    / _ \   | | | | | '__|  / _` |   | | | |  | | 
+//   / ___ \  | |_| | | |    | (_| |   | |_| |  | | 
+//  /_/   \_\  \__,_| |_|     \__,_|    \___/  |___|
+
 //! Convenient re-exports for Aura apps (including Aura Speak).
 
 pub use crate::app::{Aura, WindowConfig};

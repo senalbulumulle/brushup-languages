@@ -1,51 +1,11 @@
+//      _                               _   _   ___ 
+//     / \     _   _   _ __    __ _    | | | | |_ _|
+//    / _ \   | | | | | '__|  / _` |   | | | |  | | 
+//   / ___ \  | |_| | | |    | (_| |   | |_| |  | | 
+//  /_/   \_\  \__,_| |_|     \__,_|    \___/  |___|
+
+
 //! # Aura Speak
-//!
-//! A tiny UI language for kids — English words, almost no Rust noise.
-//!
-//! ```ignore
-//! use aura_ui::prelude::*;
-//!
-//! fn main() {
-//!     aura! {
-//!         open "My App" size 640 by 420
-//!
-//!         remember clicks = 0;
-//!
-//!         paint {
-//!             card {
-//!                 title "Hello!"
-//!                 whisper "Tap a button"
-//!                 row {
-//!                     press "Add" => bump clicks
-//!                     press "Reset" => set clicks 0
-//!                 }
-//!                 say "Clicks" with clicks
-//!             }
-//!         }
-//!     }
-//! }
-//! ```
-//!
-//! ## Words you can use
-//!
-//! | Word | Meaning |
-//! |------|---------|
-//! | `open "Name" size W by H` | Start a window |
-//! | `remember name = 0;` | Keep a number in memory |
-//! | `paint { ... }` | Draw the screen |
-//! | `card { ... }` | A cozy box |
-//! | `stack { ... }` | Things one under another |
-//! | `row { ... }` | Things side by side |
-//! | `title "..."` | Big words |
-//! | `say "..."` | Normal words |
-//! | `whisper "..."` | Soft gray words |
-//! | `say "Label" with name` | Show a remembered number |
-//! | `press "Label" => …` | A button |
-//! | `bump name` | Add 1 |
-//! | `set name N` | Set to a number |
-//! | `flip theme` | Light ↔ dark |
-//! | `line` | A thin divider |
-//! | `tag "..."` | A small chip |
 
 mod runtime;
 

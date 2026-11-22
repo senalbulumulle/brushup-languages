@@ -1,8 +1,0 @@
-[package]
-name = "ui-framework"
-version = "0.1.0"
-edition = "2024"
-
-[dependencies]
-glfw = "0.59"
-gl = "0.14"
